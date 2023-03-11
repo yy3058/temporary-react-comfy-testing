@@ -11,19 +11,19 @@ const AboutPage = () => {
         <img src={aboutImg} alt="nice desk" />
         <article>
           <div className="title">
-            <h2>our story</h2>
+            <h2>Good for people</h2>
             <div className="underline"></div>
           </div>
           <p>
-            orem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum
+            At Hazy, we’re in the business of home—and the planet is everyone’s
+            home. We’re focused on expanding our use of low-impact materials,
+            reducing waste and prioritizing circularity. We believe in great
+            design, from around the corner to around the globe. That means
+            supporting the people behind your products with ethical production,
+            worker well-being and economic impact. We collaborate with artisan
+            collectives around the world to help preserve their handcraft
+            traditions and create opportunities for sustainable employment,
+            especially in rural areas.
           </p>
         </article>
       </Wrapper>

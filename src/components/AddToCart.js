@@ -109,7 +109,12 @@ const Wrapper = styled.section`
 
   .btn {
     margin-top: 1rem;
-    width: 140px;
+    width: 150px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 `;
 export default AddToCart;

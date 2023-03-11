@@ -23,9 +23,9 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="products" element={<Products />} />
           <Route path="about" element={<About />} />
           <Route path="cart" element={<Cart />} />
-          <Route path="products" element={<Products />} />
           <Route path="products/:id" element={<SingleProduct />} />
           <Route
             path="checkout"
@@ -36,25 +36,6 @@ function App() {
             }
           />
           <Route path="*" element={<Error />} />
-          {/* <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/cart">
-            <Cart />
-          </Route>
-          <Route exact path="/products">
-            <Products />
-          </Route>
-          <Route exact path="/products/:id" children={<SingleProduct />} />
-          <PrivateRoute exact path="/checkout">
-            <Checkout />
-          </PrivateRoute>
-          <Route path="*">
-            <Error />
-          </Route> */}
         </Routes>
         <Footer />
       </Router>

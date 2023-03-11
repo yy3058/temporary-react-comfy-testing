@@ -18,6 +18,7 @@ const Nav = () => {
           <Link to="/">
             <img src={logo} alt="comfy sloth" />
           </Link>
+          <h4>Hazy</h4>
           <button type="button" className="nav-toggle" onClick={openSidebar}>
             <FaBars />
           </button>
@@ -59,8 +60,13 @@ const NavContainer = styled.nav`
     align-items: center;
     justify-content: space-between;
     img {
-      width: 175px;
-      margin-left: -15px;
+      width: 35px;
+      margin-left: -8px;
+      margin-top: 12px;
+    }
+    h4 {
+      margin-left: 20px;
+      margin-top: 16px;
     }
   }
   .nav-toggle {
@@ -73,6 +79,7 @@ const NavContainer = styled.nav`
     }
   }
   .nav-links {
+    margin-top: 10px;
     display: none;
   }
   .cart-btn-wrapper {

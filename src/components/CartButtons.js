@@ -49,11 +49,11 @@ const Wrapper = styled.div`
 
   .cart-btn {
     color: var(--clr-grey-1);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 800;
     letter-spacing: var(--spacing);
     color: var(--clr-grey-1);
     display: flex;
-
     align-items: center;
   }
   .cart-container {
@@ -85,7 +85,8 @@ const Wrapper = styled.div`
     align-items: center;
     background: transparent;
     border-color: transparent;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 800;
     cursor: pointer;
     color: var(--clr-grey-1);
     letter-spacing: var(--spacing);

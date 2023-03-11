@@ -13,10 +13,9 @@ const Hero = () => {
         </h1>
         <p>
           {' '}
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          We believe in great design, from around the corner to around the
+          globe. That means supporting the people behind your products with
+          ethical production, worker well-being and economic impact.
         </p>
         <Link to="/products" className="btn hero-btn">
           shop now
