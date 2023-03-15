@@ -1,5 +1,12 @@
 import React from 'react';
-import { GiCompass, GiDiamondHard, GiStabbedNote } from 'react-icons/gi';
+import AutoGraphIcon from '@mui/icons-material/AutoGraph';
+import AutoAwesomeMotionIcon from '@mui/icons-material/AutoAwesomeMotion';
+import FeedIcon from '@mui/icons-material/Feed';
+import sofa from '../assets/products/sofa.png';
+import mirror from '../assets/products/mirror.png';
+import lamp from '../assets/products/lamp.png';
+import table from '../assets/products/table.png';
+
 export const links = [
   {
     id: 1,
@@ -21,21 +28,48 @@ export const links = [
 export const services = [
   {
     id: 1,
-    icon: <GiCompass />,
+    icon: <AutoAwesomeMotionIcon />,
     title: 'mission',
     text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
   },
   {
     id: 2,
-    icon: <GiDiamondHard />,
+    icon: <AutoGraphIcon />,
     title: 'vision',
     text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
   },
   {
     id: 3,
-    icon: <GiStabbedNote />,
+    icon: <FeedIcon />,
     title: 'history',
     text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+  },
+];
+
+export const newArrivals = [
+  {
+    id: 1,
+    name: 'Arm Sofas',
+    price: 54.8,
+    img: sofa,
+  },
+  {
+    id: 2,
+    name: 'Living Table',
+    price: 89.99,
+    img: table,
+  },
+  {
+    id: 3,
+    name: 'Floor Lamp',
+    price: 54.8,
+    img: lamp,
+  },
+  {
+    id: 4,
+    name: 'Mirror',
+    price: 45.8,
+    img: mirror,
   },
 ];
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { formatPrice } from '../utils/helpers';
-import { FaSearch } from 'react-icons/fa';
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import { Link } from 'react-router-dom';
 
 const Product = ({ image, name, price, id }) => {
@@ -10,7 +10,7 @@ const Product = ({ image, name, price, id }) => {
       <div className="container">
         <img src={image} alt={name} />
         <Link to={`/products/${id}`} className="link">
-          <FaSearch />
+          <SearchOutlinedIcon />
         </Link>
       </div>
       <footer>

@@ -50,8 +50,14 @@ const Wrapper = styled.section`
     margin-bottom: 1rem;
   }
   .btn {
-    font-size: 0.5rem;
     padding: 0.25rem 0.5rem;
+    margin-top: 1rem;
+    width: 120px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   @media (min-width: 992px) {
     article {

@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { formatPrice } from '../utils/helpers';
 import AmountButtons from './AmountButtons';
-import { FaTrash } from 'react-icons/fa';
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
+// import { FaTrash } from 'react-icons/fa';
 import { useCartContext } from '../context/cart_context';
 const CartItem = ({ id, image, name, color, price, amount }) => {
   const { removeItem, toggleAmount } = useCartContext();
@@ -29,7 +30,7 @@ const CartItem = ({ id, image, name, color, price, amount }) => {
       <AmountButtons amount={amount} increase={increase} decrease={decrease} />
       <h5 className="subtotal">{formatPrice(price * amount)}</h5>
       <button className="remove-btn" onClick={() => removeItem(id)}>
-        <FaTrash />
+        <DeleteOutlineIcon />
       </button>
     </Wrapper>
   );
@@ -102,11 +103,11 @@ const Wrapper = styled.article`
     }
   }
   .remove-btn {
-    color: var(--clr-white);
+    // color: var(--clr-white);
     background: transparent;
     border: transparent;
     letter-spacing: var(--spacing);
-    background: var(--clr-red-dark);
+    // background: var(--clr-red-dark);
     width: 1.5rem;
     height: 1.5rem;
     display: flex;

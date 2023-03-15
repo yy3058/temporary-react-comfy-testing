@@ -21,11 +21,11 @@ const FeaturedProducts = () => {
   return (
     <Wrapper className="section">
       <div className="title">
-        <h2>fetched prodcuts</h2>
+        <h2>featured prodcuts</h2>
         <div className="underline"></div>
       </div>
       <div className="section-center featured">
-        {featured.slice(0, 3).map((product) => {
+        {featured.slice(3, 6).map((product) => {
           return <Product key={product.id} {...product} />;
         })}
       </div>

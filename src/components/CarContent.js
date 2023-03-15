@@ -46,11 +46,31 @@ const Wrapper = styled.section`
     color: var(--clr-white);
     border-radius: var(--radius);
     letter-spacing: var(--spacing);
-    font-weight: 400;
     cursor: pointer;
+    width: 200px;
+    height: 36px;
+    font-size: 0.9rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .link-btn:hover {
+    color: var(--clr-primary-1);
+    background: var(--clr-primary-6);
   }
   .clear-btn {
     background: var(--clr-black);
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+    width: 200px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+  .clear-btn:hover {
+    color: var(--clr-white);
+    background: var(--clr-grey-5);
   }
 `;
 export default CartContent;

@@ -4,8 +4,9 @@ const Footer = () => {
   return (
     <Wrapper>
       <h5> &copy; {new Date().getFullYear()}</h5>
+      \t
       <span> Hazy </span>
-      <h5> All rights reserved</h5>
+      \t<h5>All rights reserved </h5>
     </Wrapper>
   );
 };
@@ -24,7 +25,6 @@ const Wrapper = styled.footer`
   h5 {
     color: var(--clr-white);
     margin: 0.1rem;
-
     font-weight: 400;
     text-transform: none;
     line-height: 1.25;

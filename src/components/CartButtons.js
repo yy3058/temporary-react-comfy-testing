@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaShoppingCart, FaUserMinus, FaUserPlus } from 'react-icons/fa';
+import LocalMallIcon from '@mui/icons-material/LocalMall';
+import { FaUserMinus, FaUserPlus } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { useProductsContext } from '../context/products_context';
@@ -15,7 +16,7 @@ const CartButtons = () => {
       <Link to="./cart" className="cart-btn" onClick={closeSidebar}>
         Cart
         <span className="cart-container">
-          <FaShoppingCart />
+          <LocalMallIcon />
           <span className="cart-value">{total_items}</span>
         </span>
       </Link>
@@ -52,7 +53,7 @@ const Wrapper = styled.div`
     font-size: 1.3rem;
     font-weight: 800;
     letter-spacing: var(--spacing);
-    color: var(--clr-grey-1);
+    color: var(--clr-grey-3);
     display: flex;
     align-items: center;
   }
@@ -67,18 +68,18 @@ const Wrapper = styled.div`
   }
   .cart-value {
     position: absolute;
-    top: -10px;
-    right: -16px;
+    top: -6px;
+    right: -10px;
     background: var(--clr-primary-5);
-    width: 16px;
-    height: 16px;
+    width: 8px;
+    height: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     font-size: 0.75rem;
     color: var(--clr-white);
-    padding: 12px;
+    padding: 10px;
   }
   .auth-btn {
     display: flex;
@@ -88,7 +89,7 @@ const Wrapper = styled.div`
     font-size: 1.3rem;
     font-weight: 800;
     cursor: pointer;
-    color: var(--clr-grey-1);
+    color: var(--clr-grey-3);
     letter-spacing: var(--spacing);
     svg {
       margin-left: 5px;

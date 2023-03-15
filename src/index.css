@@ -58,7 +58,8 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: 'Recia', serif;
+  font-family: 'Erode', serif;
+  /* font-family: 'Recia', serif; */
   font-weight: 600;
   background: var(--clr-white);
   color: var(--clr-grey-1);
@@ -81,6 +82,7 @@ h3,
 h4,
 h5 {
   font-family: 'Erode', serif;
+  color: var(--clr-grey-3);
   letter-spacing: var(--spacing);
   text-transform: capitalize;
   line-height: 1.25;
@@ -191,14 +193,15 @@ button {
 }
 .btn:hover {
   color: var(--clr-primary-1);
-  background: var(--clr-primary-7);
+  background: var(--clr-primary-6);
 }
 .title {
   text-align: center;
 }
 .title .underline {
-  width: 6rem;
-  height: 0.25rem;
+  width: 7rem;
+  height: 0.35rem;
+  margin-top: 1.2rem;
   background: #49a6e9;
   background: var(--clr-primary-5);
   margin-left: auto;
